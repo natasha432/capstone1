@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EvolveMind</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+  <!-- Modern Navbar -->
+  <header>
+    <nav class="modern-navbar">
+      <div class="nav-logo">
+        <i class="fas fa-clinic-medical"></i> EvolveMind
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#specialists">Specialists</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#department">Departments</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Appointment Box -->
+  <section class="hero-section" id="home">
+    <div class="hero-content">
+    
+      <div class="hero-text">
+        <h1>Your Health Is Our First Priority</h1>
+        <p>
+          Welcome, where exceptional patient experiences are our priority. With compassionate care, state-of-the-art
+          facilities, and a patient-centered approach, we're dedicated to your well-being. Trust us with your health and
+          experience the difference.
+        </p>
+        <a href="#about" class="btn btn-primary">Learn More</a>
+      </div>
+
+      <form class="appointment-card" id="appointmentForm" autocomplete="off">
+        <h2>Book Appointment</h2>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="father" placeholder="Father's Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9]{10,}">
+        <button type="submit" class="btn btn-appointment">Book Now</button>
+        <div class="appointment-success" id="appointmentSuccess" style="display:none;">
+          <i class="fas fa-check-circle"></i> Appointment booked!
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+  
+  <!-- ____________services -->
+
+  <!-- ...existing code... -->
+
+  <section class="services-section">
+    <h2 class="section-heading animate-fadein">Our Services</h2>
+    <div class="services-row">
+      <div class="service-card animate-up">
+        <i class="fas fa-tooth"></i>
+        <h3>Dentistry</h3>
+        <p>Dedicated to healthy smiles and comprehensive oral care. From routine cleaning to advanced procedures, we
+          provide personalized treatment for lasting dental health and confidence.</p>
+      </div>
+      <div class="service-card animate-up" style="animation-delay:0.1s;">
+        <i class="fas fa-user-nurse"></i>
+        <h3>Nursing</h3>
+        <p>Compassionate and expert nursing care. Our skilled nurses provide attentive support, administer treatments,
+          and offer patient education in a caring environment.</p>
+      </div>
+      <div class="service-card animate-up" style="animation-delay:0.2s;">
+        <i class="fas fa-tablets"></i>
+        <h3>Medicine</h3>
+        <p>Holistic medical care for your well-being. Our experienced physicians offer diagnosis, treatment, and
+          preventative health services for you and your family.</p>
+      </div>
+      <div class="service-card animate-up" style="animation-delay:0.2s;">
+        <i class="fas fa-tablets"></i>
+        <h3>Medicine</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+      <div class="service-card animate-up" style="animation-delay:0.3s;">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Cardiology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+      <div class="service-card animate-up" style="animation-delay:0.4s;">
+        <i class="fas fa-x-ray"></i>
+        <h3>Radiology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+
+      <div class="service-card animate-up" style="animation-delay:0.4s;">
+        <i class="fas fa-x-ray"></i>
+        <h3>Radiology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2 class="section-heading animate-fadein">About Us</h2>
+    <div class="about-row">
+      <div class="about-img animate-left">
+        <img src="pic1.jpg" alt="About our clinic">
+      </div>
+      <div class="about-content animate-right">
+        <h3>Inspiring Hope, Innovating Health</h3>
+        <p>
+          We are committed to providing exceptional healthcare with compassion and innovation. Our team of professionals
+          ensures personalized care, state-of-the-art facilities, and a patient-centered approach for your well-being.
+        </p>
+        <button class="btn btn3">Explore More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ...existing code... -->
+  <!-- __________quality -->
+
+  <!-- ...existing code... -->
+  <!-- __________quality -->
+  <section class="quality-section">
+    <h2 class="section-heading animate-fadein">Why Choose Our Healthcare Clinic</h2>
+    <div class="quality-row">
+      <div class="quality-card animate-up">
+        <i class="fas fa-user-plus"></i>
+        <h3>24/7 Available</h3>
+        <p>
+          Health concerns don't keep office hours, and neither do we. Our clinic offers 24/7 availability for
+          consultations, emergency support, and medical guidance, ensuring you receive timely care whenever you need it.
+        </p>
+      </div>
+      <div class="quality-card animate-up" style="animation-delay:0.1s;">
+        <i class="fas fa-hand-holding-heart"></i>
+        <h3>Medical Cycle Care</h3>
+        <p>
+          Our Medical Cycle Care focuses on a holistic approach to your health. We ensure seamless coordination across
+          all your medical needs, offering continuous support and integrated care plans for sustained well-being.
+        </p>
+      </div>
+      <div class="quality-card animate-up" style="animation-delay:0.2s;">
+        <i class="fas fa-award"></i>
+        <h3>Quality Control</h3>
+        <p>
+          We are dedicated to providing the highest quality healthcare services. Our stringent quality control measures
+          ensure accuracy, safety, and the best possible results for every patient.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Add this section where you want the "Meet Our Specialists" slider -->
+  <section class="specialist-section" id="specialists">
+    <h2 class="section-heading animate-fadein">Meet Our Specialists</h2>
+    <div class="specialist-slider-container">
+      <button class="specialist-slider-btn" id="specialist-prev">&#10094;</button>
+      <div class="specialist-slider-window">
+        <div class="specialist-slider-track" id="specialist-slider-track">
+          <!-- Specialist Card 1 -->
+          <div class="specialist-card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Dr. John Doe" class="specialist-img">
+            <h3>Dr. John Doe</h3>
+            <p>Cardiologist</p>
+          </div>
+          <!-- Specialist Card 2 -->
+          <div class="specialist-card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Jane Smith" class="specialist-img">
+            <h3>Dr. Jane Smith</h3>
+            <p>Radiologist</p>
+          </div>
+          <!-- Specialist Card 3 -->
+          <div class="specialist-card">
+            <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Dr. Alex Brown" class="specialist-img">
+            <h3>Dr. Alex Brown</h3>
+            <p>Dentist</p>
+          </div>
+          <!-- Specialist Card 4 -->
+          <div class="specialist-card">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Dr. Emily White" class="specialist-img">
+            <h3>Dr. Emily White</h3>
+            <p>Pediatrician</p>
+          </div>
+          <!-- Specialist Card 5 -->
+          <div class="specialist-card">
+            <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Dr. Michael Green" class="specialist-img">
+            <h3>Dr. Michael Green</h3>
+            <p>General Physician</p>
+          </div>
+          <!-- Specialist Card 5 -->
+          <div class="specialist-card">
+            <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Dr. Michael Green" class="specialist-img">
+            <h3>Dr. Michael Green</h3>
+            <p>General Physician</p>
+          </div>
+          <!-- Specialist Card 5 -->
+          <div class="specialist-card">
+            <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Dr. Michael Green" class="specialist-img">
+            <h3>Dr. Michael Green</h3>
+            <p>General Physician</p>
+          </div>
+
+        </div>
+      </div>
+      <button class="specialist-slider-btn" id="specialist-next">&#10095;</button>
+    </div>
+    <div class="specialist-slider-dots" id="specialist-slider-dots"></div>
+  </section>
+
+
+
+
+  <!-- Feedback Section -->
+  <!-- Add this section where you want the Patient Feedback slider -->
+  <section class="feedback-section" id="feedback">
+    <h2 class="section-heading animate-fadein">Patient Feedback</h2>
+    <div class="feedback-slider-container">
+      <button class="feedback-slider-btn" id="feedback-prev">&#10094;</button>
+      <div class="feedback-slider-window">
+        <div class="feedback-slider-track" id="feedback-slider-track">
+          <!-- Feedback Card 1 -->
+          <div class="feedback-card">
+            <div class="feedback-quote">“</div>
+            <p class="feedback-text">The doctors and staff were incredibly caring and attentive. I felt comfortable and
+              well-informed throughout my treatment.</p>
+            <div class="feedback-user">
+              <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Patient 1">
+              <div>
+                <div class="feedback-name">Priya Sharma</div>
+                <div class="feedback-role">Recovered Patient</div>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 2 -->
+          <div class="feedback-card">
+            <div class="feedback-quote">“</div>
+            <p class="feedback-text">Excellent facilities and a very professional team. My recovery was smooth and quick
+              thanks to their support.</p>
+            <div class="feedback-user">
+              <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="Patient 2">
+              <div>
+                <div class="feedback-name">Rahul Verma</div>
+                <div class="feedback-role">Patient</div>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 3 -->
+          <div class="feedback-card">
+            <div class="feedback-quote">“</div>
+            <p class="feedback-text">I highly recommend this clinic for their dedication and expertise. They truly care
+              about their patients’ well-being.</p>
+            <div class="feedback-user">
+              <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Patient 3">
+              <div>
+                <div class="feedback-name">Anjali Mehta</div>
+                <div class="feedback-role">Patient</div>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 4 -->
+          <div class="feedback-card">
+            <div class="feedback-quote">“</div>
+            <p class="feedback-text">The environment is clean and welcoming. The staff made sure all my questions were
+              answered. Thank you!</p>
+            <div class="feedback-user">
+              <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="Patient 4">
+              <div>
+                <div class="feedback-name">Suresh Kumar</div>
+                <div class="feedback-role">Patient</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="feedback-slider-btn" id="feedback-next">&#10095;</button>
+    </div>
+    <div class="feedback-slider-dots" id="feedback-slider-dots"></div>
+  </section>
+
+  <!-- ___________departments -->
+  <section class="department-section" id="department">
+    <h2 class="section-heading animate-fadein">Our Departments</h2>
+    <div class="department-grid" id="department-grid">
+      <div class="department-card animate-zoom">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Cardiology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+      <div class="department-card animate-zoom" style="animation-delay:0.1s;">
+        <i class="fas fa-x-ray"></i>
+        <h3>Radiology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+      <div class="department-card animate-zoom" style="animation-delay:0.2s;">
+        <i class="fas fa-user-nurse"></i>
+        <h3>Nursing</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+      <div class="department-card animate-zoom" style="animation-delay:0.3s;">
+        <i class="fas fa-tooth"></i>
+        <h3>Dentistry</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+      <div class="department-card animate-zoom" style="animation-delay:0.4s;">
+        <i class="fas fa-brain"></i>
+        <h3>Neurology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+      <div class="department-card animate-zoom" style="animation-delay:0.5s;">
+        <i class="fas fa-baby"></i>
+        <h3>Pediatrics</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae velit at quam.</p>
+      </div>
+    </div>
+  </section>
+  <!-- _______________footer -->
+  <footer>
+    <div class="footer-sec">
+      <div class="sec">
+        <div class="f_box">
+          <h2>Contact</h2>
+          <p>Email</p>
+          <p>Youtube</p>
+          <p>Facebook</p>
+          <p>Twitter</p>
+        </div>
+        <div class="f_box">
+          <h2>Departments</h2>
+          <p>Radiology</p>
+          <p>Pharmocology</p>
+          <p>Pathology</p>
+          <p>Anatomy</p>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="f_box">
+          <h2>Address</h2>
+          <p>Indian institute of technology Patna,<br> block 4</p>
+          <p>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-whatsapp"></i>
+          </p>
+        </div>
+        <div class="f_box">
+          <h2>Other facilities</h2>
+          <p>24/7 services</p>
+          <p>Quality control</p>
+          <p>Full cycle medical care</p>
+        </div>
+      </div>
+    </div>
+    <p class="para">copyright @ AnnaCodingCorner</p>
+  </footer>
+ 
+    
+  <script src="index.js"></script>
+  <script>
+    // Responsive Navbar Toggle
+    const burger = document.getElementById('burger');
+    const nav = document.querySelector('.nav');
+    burger.addEventListener('click', () => {
+      nav.classList.toggle('nav-active');
+    });
+
+    // Smooth Scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href').slice(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+  <script src="//code.tidio.co/c7juiibm81xhzbbdd6glqwexkgby7mkb.js" async></script>
+  </body>
+
+</html>
