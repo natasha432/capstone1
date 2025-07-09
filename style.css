@@ -139,6 +139,12 @@ header {
   inset: 0;
   background: rgba(33,150,243,0.18);
   z-index: 1;
+ background-image: url(home.jpg);
+opacity: 1;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  z-index: 1;
 }
 .hero-content {
   display: flex;
